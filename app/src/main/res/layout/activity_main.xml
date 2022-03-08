@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:padding="5dp"
+    android:background="@drawable/wall_phone"
+    >
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"/>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_background"
+            android:id="@+id/buttonStaff"
+            android:text="@string/staff"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:background="@drawable/rectangle_background"
+            android:id="@+id/event"
+            android:text="@string/event"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/payment"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/permission"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/permission"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/despline"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/discipline"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/visit"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/visits"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

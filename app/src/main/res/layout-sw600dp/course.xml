@@ -1,0 +1,83 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"/>
+
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:text="@string/class_management"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/select_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:padding="3dp"
+            android:background="@drawable/rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Spinner
+                android:id="@+id/spinnerClass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/select_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:padding="3dp"
+            android:background="@drawable/rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Spinner
+                android:id="@+id/spinnerCourse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

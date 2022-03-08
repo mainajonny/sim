@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Shuleh2</string>
+    <string name="checking">CHECKING</string>
+    <string name="checkout">CHECKOUT</string>
+
+    <string name="write_to_tag">Write to Tag</string>
+    <string name="default_note_text"></string>
+    <string name="description">Please enter the theme name.</string>
+    <string name="start_message">Touch tag to write</string>
+    <string name="checkbox_text">Restart after setting the theme</string>
+    <string name="end_message">Wrote message to pre-formatted tag.</string>
+    <string name="error_readonly">Tag is read-only.</string>
+    <string name="error_over">Capacity of the tag is insufficient.</string>
+    <string name="error_format">Failed to format tag.</string>
+    <string name="error_no_support">Tag doesn\'t support NDEF.</string>
+    <string name="error_write">Failed to write tag.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="title_activity_main">NFC on Android Example</string>
+    <string name="title_activity_writetag">Write Tag Example</string>
+    <string name="title_activity_readtag">Read Tag Example</string>
+    <string name="title_activity_beam">Android Beam Example</string>
+    <string name="title_activity_vader">Darth Vader!!!</string>
+    <string name="title_activity_ass">Ass!!!</string>
+
+    <string name="text_button_writetag">Write Tag Example</string>
+    <string name="text_button_readtag">Read Tag Example</string>
+    <string name="text_button_beam">Android Beam Example</string>
+    <string name="text_button_write">Write Tag</string>
+
+    <string name="text_warning_nfc_is_off">NFC is currently turned off!</string>
+    <string name="text_turn_on_nfc">This example can\'t be used without NFC enabled. Please turn on NFC in the Settings and then use the back button to return to this app.</string>
+    <string name="text_update_settings">Update Settings</string>
+
+    <string name="staff">Time Attendance</string>
+    <string name="student">Student Tracking</string>
+    <string name="discipline">Discipline Tracking</string>
+    <string name="permission">Permission Tracking</string>
+    <string name="payment">Payment Tracking</string>
+    <string name="visits">Visits Tracking</string>
+    <string name="event">Event Attendance</string>
+    <string name="course">Course\n Class Attendance Only for Teaching</string>
+    <string name="vehicles">Vehicle</string>
+    <string name="course_desc">Class Attendance Only for Teaching</string>
+    <string name="prep">Prep \nAttendance for prep</string>
+    <string name="prep_des">Attendance for prep</string>
+    <string name="meeting">Meeting</string>
+    <string name="meeting_desc">Meetings Attendance</string>
+    <string name="refectory">Refectory</string>
+    <string name="refectory_dec">Attendance in refectory</string>
+    <string name="class_management">Attendance Management</string>
+    <string name="vehicle_config">Enter the Number plate of the vehicle you wish to track using this device</string>
+    <string name="select_class">Select Class</string>
+    <string name="select_course">Select Course</string>
+
+    <string name="txt_fingerplace">Please press finger &#8230;</string>
+    <string name="txt_fpbegin">Begin to Identify</string>
+    <string name="txt_fpplace">Please press finger</string>
+    <string name="txt_fplift">Please lift finger</string>
+    <string name="txt_fpdisplay">Display fingerprint image &#8230;</string>
+    <string name="txt_fpprocess">Start processing &#8230;</string>
+    <string name="txt_fpidentify">Being Identify &#8230;</string>
+    <string name="txt_fpfail">Failed to generate!</string>
+    <string name="txt_fpmatchok">Match OK!</string>
+    <string name="txt_fpmatchfail">Match Fail!</string>
+    <string name="txt_fpenrolok">Enrol OK</string>
+    <string name="txt_fpenrolfail">Enrol Fail</string>
+    <string name="txt_fpduplicate">Fail,Duplicate Enroll!</string>
+    <string name="txt_cardmatch">Card Match Success</string>
+    <string name="txt_cardsn">Card SN:</string>
+    <string name="txt_fpmatching">Matching &#8230;</string>
+    <string name="txt_snerror">SN Error</string>
+    <string name="txt_fpclick">Click the fingerprint icon to begin</string>
+    <string name="txt_enrolinfo1">Not Enroll User</string>
+    <string name="txt_enrolinfo2">Please Enroll User</string>
+    <string name="txt_exitinfo">Press again to exit</string>
+    <string name="reason">Reason</string>
+    <string name="destination">Destination</string>
+    <string name="observation">Observation(Option)</string>
+    <string name="leaving_date">Leaving Date</string>
+    <string name="leaving_time">Leaving Time</string>
+    <string name="returning_date">Returning Date</string>
+    <string name="returning_time">Returning Time</string>
+    <string name="notify_parent">Notify Parent</string>
+    <string name="save_and_print">Save and Print</string>
+    <string name="fault">Enter Fault</string>
+    <string name="marks">Enter Deducted Marks</string>
+    <string name="des">Enter Description</string>
+    <string name="submit">Submit</string>
+    <string name="capture">Capture</string>
+    <string name="photo">Photo</string>
+    <string name="finger">Finger Print</string>
+
+</resources>

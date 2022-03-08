@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frm"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall_phone"
+    tools:context=".dashboard.Clockings">
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"/>
+
+    <LinearLayout
+        android:id="@+id/usersImage"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="TIME ATTENDANCE SYSTEM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvIMEI"
+            android:textColor="@color/mdtp_white"
+            tools:text="352701061927452"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <!--Home-->
+    <LinearLayout
+        android:id="@+id/layoutHome"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="3:37 PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Tuesday, February 5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <!--Denied-->
+    <LinearLayout
+        android:id="@+id/layoutDenied"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/denied"
+            android:id="@+id/imageDenided"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="3:37 PM"
+            android:layout_width="100dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/tvStatusDenied"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Access Denied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <!--Profile-->
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/layoutProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".dashboard.Clockings">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:src="@drawable/hahah"
+            android:layout_width="100sp"
+            android:layout_height="100sp"/>
+
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="Alex Wafula Wanjala Daniel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/type"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="Student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>

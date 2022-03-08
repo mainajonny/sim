@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventAttendance">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventAttendance">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:id="@+id/signature"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_star"
+            android:gravity="center"
+            android:text="signature"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:id="@+id/vehicles"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_star"
+            android:gravity="center"
+            android:text="@string/vehicles"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:id="@+id/radio_course"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_star"
+            android:gravity="center"
+            android:text="@string/course"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio_prep"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/star_big_off"
+            android:gravity="center"
+            android:text="@string/prep"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio_meeting"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/star_big_off"
+            android:gravity="center"
+            android:text="@string/meeting"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio_refectory"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/star_big_off"
+            android:gravity="center"
+            android:text="@string/refectory"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio_users"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/star_big_off"
+            android:gravity="center"
+            android:text="Cards,photo and Finger"/>
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:button="@null"
+            android:drawableTop="@android:drawable/star_big_off"
+            android:gravity="center"
+            android:text="Logout"/>
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
+</ScrollView>

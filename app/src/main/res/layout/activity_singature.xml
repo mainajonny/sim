@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.aw.simitrac.Singature">
+
+<LinearLayout
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aw.simitrac.Singature">
+ <ImageView
+     android:src="@drawable/mm"
+     android:layout_width="wrap_content"
+     android:layout_height="100dp"/>
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_background"
+        android:hint="Company | Customer Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_background"
+        android:hint="Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Installation Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkBoxDST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSTV" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGOTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GoTV" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Contact Person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="phone"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_background"
+        android:hint="Phone Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="date"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_background"
+        android:hint="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Inspection Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkBoxP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standard" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Outdoor Installation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkBoxM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mounting" />
+
+        <CheckBox
+            android:id="@+id/checkBoxC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable" />
+        <CheckBox
+            android:id="@+id/checkBoxSignal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Indoor Installation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkBoxDecoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decoder" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCableIndoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkBoxComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete" />
+
+        <CheckBox
+            android:id="@+id/checkBoxIncomplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incomplete" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkBoxExcellent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excellent" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSatisfactory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satisfactory" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSatisPoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poor" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Customer Signature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        android:background="@drawable/rectangle_background"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:penColor="@android:color/black"
+        />
+    <EditText
+        android:inputType="date"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_background"
+        android:hint="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
+</ScrollView>

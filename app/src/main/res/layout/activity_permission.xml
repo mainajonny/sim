@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".pos.PermissionSomanet">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".pos.PermissionSomanet">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/close"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Printer Not Connected"
+            android:id="@+id/tvPrinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        android:visibility="visible"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Alex Wafula Wanjala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/group"
+                android:textColor="@android:color/black"
+                android:text="BBIT 2014 FIt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edReason"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:hint="@string/reason"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edDestination"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:hint="@string/destination"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edObservation"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:hint="@string/observation"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edLeaving_date"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:hint="@string/leaving_date"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <EditText
+        android:id="@+id/edLeaving_time"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:hint="@string/leaving_time"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edReturning_date"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:hint="@string/returning_date"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edReturning_time"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:hint="@string/returning_time"
+        android:background="@drawable/rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/send"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:text="@string/save_and_print"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
